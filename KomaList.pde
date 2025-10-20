@@ -47,7 +47,7 @@ class KomaList {
   
   void promote(AbstractKoma hiyoko, int toX, int toY) {
     for (AbstractKoma k : komaArray) {
-      if (k.name.equals("niwatori") && !k.kStat.active) {
+      if (k.name.equals("Niwatori") && !k.kStat.active) {
         hiyoko.kStat.active = false;
         k.kStat.active = true;
         k.kStat.captured = false;
